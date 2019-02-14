@@ -1,3 +1,4 @@
-Programming Principles II 
-FIT 18BD.
-Fedotov.A
+ã
+   ?Programming Principles II 
+   ?FIT 18BD.?
+   ?Fedotov.A?
