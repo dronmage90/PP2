@@ -1,0 +1,22 @@
+//создать пустой файл
+        System.IO.File.Create("D:\\TestFile.txt");
+ 
+        //создать (если нет) либо открыть если есть и записать текст (путем замены если что то      было   записано)
+        System.IO.File.WriteAllText("D:\\TestFile.txt", "текст");
+ 
+//создает новый  если такого нет , либо открывает имеющийся и пишет путем добавления 
+ System.IO.File.AppendAllText("D:\\TestFile.txt", "текст");
+ 
+//получить доступ к  существующему либо создать новый
+        StreamWriter file = new StreamWriter("D:\\TestFile.txt");
+//записать в него
+        file.Write("текст");
+//закрыть для сохранения данных
+        file.Close();
+
+
+
+
+
+var myFile = File.Create(myPath);
+myFile.Close();
