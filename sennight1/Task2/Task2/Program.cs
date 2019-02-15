@@ -24,6 +24,8 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            Console.Title = "Info";
+            Console.WriteLine("/ Name / ID / Year of study /");
             string t = Console.ReadLine();
             string[] student = t.Split();
 
